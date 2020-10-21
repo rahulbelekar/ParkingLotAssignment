@@ -24,7 +24,7 @@ class Slot: Object {
         self.type = type
     }
     
-    required init() {
+    required override init() {
         id = 0
         row = 0
         level = 0

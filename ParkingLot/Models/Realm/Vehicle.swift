@@ -49,7 +49,7 @@ class Vehicle: Object {
         }
     }
     
-    required init() {
+    required override init() {
         licensePlate = ""
         spotRequired = 0
         vehicleType = .Motorcycle
